@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div id="front">
+      <h1>My Portfolio</h1>
+      <nav>
+         <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+    <div id="hero">
+      <h1>Zinou Belloul</h1>
+      <p>CS Student and Future Web Dev</p>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div id="descr">
+        <img src="img-2.webp" alt="a cool image (it's not me)">
+        <div id="caption">
+          <h3>Who am i?</h3>
+          <p id="self">I'm Zinou Belloul, a CS student and a Future Web Developer</p>
+          <p id="description">I'm a dedicated second-year student at the Higher National School of Computer Science in Algiers, aspiring to become a skilled web developer. With a passion for creating functional and visually appealing websites, I've been honing my skills in web development. I'm eager to leverage my knowledge and creativity to transform ideas into user-friendly websites that exceed expectations.</p>
+          <hr>
+          <div id="informations">
+            <div id="info-1">
+              <p>Name: <span>Wassim Zine Eddine Belloul</span></p>
+              <p>Age: <span>18</span></p>
+            </div>
+            <div id="info-2">
+              <p>Email: <span id="mail">zinoubelloul@gmail.com</span></p>
+              <p>From: <span>Lakhdaria, Algeria</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div id="cards">
+        <div id="card-1" class="card">
+          <div class="hidden-content">
+            <h2>Taste Of Algeria</h2>
+            <p>A simple HTML site for an Algerian restaurant, featuring a menu of traditional dishes, an order form, and a footer with attribution. Created as a final project for the Codedex platform.</p>
+            <a href="https://github.com/ZINOU-SAMA/html-Final-Project" target="_blank">More Info</a>
+          </div>
+        </div>
+        <div id="card-2" class="card">
+          <div class="hidden-content">
+            <h2>Safir</h2>
+            <p>An HTML/CSS site for a fictional travel agency, showcasing travel destinations, agency info, and contact details. Styled with custom fonts and icons using CSS3.</p>
+            <a href="https://github.com/ZINOU-SAMA/First-html-css-project-Traveling-Agency-Website" target="_blank">More Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <div id="adj"><div id="con">
+        <h3>Message Me</h3>
+        <div id="form"><form>
+          <input id="name-in" type="text" placeholder="Name" required>
+          <input id="email-in" type="email" placeholder="Email" required>
+          <br>
+          <input id="subject" type="text" placeholder="Subject" required>
+          <br>
+          <textarea id="message" placeholder="Message"></textarea>
+          <br>
+          <input id="send" type="submit" value="Send Message">
+        </form></div>
+      </div></div>
+    </section>
+  </main>
+  <footer>
+    <p>Developed by ZINOU-SAMA</p>
+  </footer>
+</body>
+</html>
